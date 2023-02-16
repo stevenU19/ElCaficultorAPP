@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cdp.elcaficultorapp"
+    android:theme="@style/ActionBar"
+    android:versionCode="2"
+    android:versionName="1.1">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission-sdk-23
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="23" />
+    <uses-permission-sdk-23
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="23" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".PrimerActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DocumentacionActivity"
+            android:theme="@style/ThemeOthers"
+            android:titleTextAppearance="@style/CustomFont" />
+        <activity
+            android:name=".AcercaDeActivity"
+            android:exported="false"
+            android:theme="@style/ThemeOthers"
+            android:titleTextAppearance="@style/CustomFont" />
+        <activity
+            android:name=".IngresarRegistroActivity"
+            android:parentActivityName=".BalanceActivity"
+            android:theme="@style/ThemeOthers"
+            android:titleTextAppearance="@style/CustomFont">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cdp.elcaficultorapp.BalanceActivity" />
+        </activity>
+        <activity
+            android:name=".BalanceActivity"
+            android:exported="false"></activity>
+        <activity
+            android:name=".RegistroActivity"
+            android:parentActivityName=".BalanceActivity"
+            android:theme="@style/ThemeOthers"
+            android:titleTextAppearance="@style/CustomFont">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cdp.elcaficultorapp.BalanceActivity" />
+        </activity>
+        <activity
+            android:name=".EditarRegistroActivity"
+            android:parentActivityName=".BalanceActivity"
+            android:theme="@style/ThemeOthers"
+            android:titleTextAppearance="@style/CustomFont">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cdp.elcaficultorapp.BalanceActivity" />
+        </activity>
+        <activity
+            android:name=".PaginaPrincipalActivity"
+            android:theme="@style/ThemeOthers"
+            android:titleTextAppearance="@style/CustomFont"></activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

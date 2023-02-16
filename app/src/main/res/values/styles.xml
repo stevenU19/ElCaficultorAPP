@@ -1,0 +1,24 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#AA1100</item>
+        <item name="colorPrimaryDark">#9B1001</item>
+        <item name="colorAccent">#D71904</item>
+    </style>
+
+    <style name="ThemeOthers" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#AA1100</item>
+        <item name="colorPrimaryDark">#9B1001</item> <!--Color naranja @android:color/holo_orange_light<-->
+        <item name="colorAccent">#D71904</item>
+    </style>
+
+    <style name="CustomFont" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:fontFamily">@font/roboto_slab_bold</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ActionBar" parent="Theme.AppCompat.Light.NoActionBar"></style>
+
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">El Caficultor APP</string>
+    <string name="btn_guardar">Guardar Registro</string>
+    <string name="btn_salir">Menú Principal</string>
+    <string name="btn_eliminar">Eliminar Registro</string>
+    <string name="btn_editar">Editar Registro</string>
+    <string name="menu_nuevo">Nuevo registro</string>
+    <string name="menu_acercaDe">Acerca de</string>
+    <string name="menu_balance">Balances</string>
+    <string name="menu_documentacion">Documentación</string>
+    <string name="pdf">Generar balance en PDF</string>
+</resources>

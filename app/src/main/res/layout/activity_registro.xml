@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegistroActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".9"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/viewFechaInicio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fecha de Inicio de la Recolección:" />
+
+        <EditText
+            android:id="@+id/txtFechaInicio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:labelFor="@+id/viewFechaInicio"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/viewFechaFinal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_slab"
+            android:text="Fecha de Finalización de la Recolección:" />
+
+        <EditText
+            android:id="@+id/txtFechaFinal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:labelFor="@+id/viewFechaFinal"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/viewPesoRecoleccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_slab"
+            android:text="Peso en Kg de la Recolección:" />
+
+        <EditText
+            android:id="@+id/txtPesoRecoleccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone"
+            android:labelFor="@+id/viewPesoRecoleccion"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/viewEstadoCafe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_slab"
+            android:text="Estado en el que se encuentra el Café:" />
+
+        <EditText
+            android:id="@+id/txtEstadoCafe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:labelFor="@+id/viewEstadoCafe"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/viewFechaVenta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_slab"
+            android:text="Fecha en que se Vendió la Cosecha:" />
+
+        <EditText
+            android:id="@+id/txtFechaVenta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:labelFor="@+id/viewFechaVenta"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/viewPesoVenta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_slab"
+            android:text="Peso Total en Kg de la Venta:" />
+
+        <EditText
+            android:id="@+id/txtPesoVenta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone"
+            android:labelFor="@+id/viewPesoVenta"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/viewPrecioKG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_slab"
+            android:text="Precio de Venta por Kg:" />
+
+        <EditText
+            android:id="@+id/txtPrecioKG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone"
+            android:labelFor="@+id/viewPrecioKG"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnGuardar"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#AA1100"
+            android:fontFamily="@font/roboto_slab_bold"
+            android:textColor="#ffffff"
+            android:text="@string/btn_guardar"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnEditar"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#AA1100"
+            android:fontFamily="@font/roboto_slab_bold"
+            android:textColor="#ffffff"
+            android:text="@string/btn_editar"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnEliminar"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#AA1100"
+            android:fontFamily="@font/roboto_slab_bold"
+            android:textColor="#ffffff"
+            android:text="@string/btn_eliminar"
+            android:textSize="18sp" />
+
+
+        <Button
+            android:id="@+id/btnSalir"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#AA1100"
+            android:fontFamily="@font/roboto_slab_bold"
+            android:text="@string/btn_salir"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+<!--
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomAppBar"
+        style="@style/Widget.MaterialComponents.BottomAppBar.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        tools:ignore="BottomAppBar">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_edit" />
+
+    </com.google.android.material.bottomappbar.BottomAppBar>-->
+</LinearLayout>
