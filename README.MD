@@ -1,9 +1,9 @@
-PROJECT TITLE: El CaficultorApp
+## PROJECT TITLE: El CaficultorApp
 
-PURPOSE OF PROJECT: La aplicación móvil "El CaficultorApp" es un sistema de gestión que ayuda a los cafeteros a llevar un registro y control de sus producciones de café. 
+## PURPOSE OF PROJECT: La aplicación móvil "El CaficultorApp" es un sistema de gestión que ayuda a los cafeteros a llevar un registro y control de sus producciones de café. 
 Con esta herramienta es posible consignar información como fechas, características y peso de la producción, para generar un balance al final.
 
-VERSION or DATE: Versión 1.1 
+## VERSION or DATE: Versión 1.1 
 
 HOW TO START THIS PROJECT:
 
@@ -28,7 +28,7 @@ Tecnologías necesarias para que el proyecto funcione:
 
 AUTHORS: Wilmer Farfán y Julián Rodríguez.
 
-USER INSTRUCTIONS:
+## USER INSTRUCTIONS:
 
 	- Verifica que el dispositivo móvil cumpla con los requisitos técnicos mencionados anteriormente.
 	- Sigue los pasos descritos en "HOW TO START THIS PROJECT".
